@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-easy_bcrypt-2_0_2.flake = false;
+  inputs.src-easy_bcrypt-2_0_2.ref   = "refs/tags/2.0.2";
   inputs.src-easy_bcrypt-2_0_2.owner = "Akito13";
-  inputs.src-easy_bcrypt-2_0_2.ref   = "2_0_2";
   inputs.src-easy_bcrypt-2_0_2.repo  = "easy-bcrypt.git";
   inputs.src-easy_bcrypt-2_0_2.type  = "github";
   
