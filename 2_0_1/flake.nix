@@ -11,6 +11,7 @@
   inputs.src-easy_bcrypt-2_0_1.ref   = "refs/tags/2.0.1";
   inputs.src-easy_bcrypt-2_0_1.owner = "Akito13";
   inputs.src-easy_bcrypt-2_0_1.repo  = "easy-bcrypt";
+  inputs.src-easy_bcrypt-2_0_1.dir   = "";
   inputs.src-easy_bcrypt-2_0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
